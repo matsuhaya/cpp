@@ -1,28 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
-using Graph = vector<vector<int>>;
-
-void printV(vector<int> v) {
-  for (int i = 0; i < (int)v.size(); i++) {
-    if (i > 0) cout << " ";
-    cout << v[i];
-  }
-  cout << endl;
-}
-
-void printVLL(vector<ll> v) {
-  for (ll i = 0; i < (ll)v.size(); i++) {
-    if (i > 0) cout << " ";
-    cout << v[i];
-  }
-  cout << endl;
+using ull = unsigned long long;
+#define rep(i, n) for (int i = 0; i < (int)(n); i++)
+template <typename T>
+inline void print(const vector<T>& v, string s = " ") {
+  rep(i, v.size()) cout << v[i] << (i != (ll)v.size() - 1 ? s : "\n");
 }
 
 int main() {
-  int N;
-  cin >> N;
-
-  cout << N << endl;
+  // code
   return 0;
 }
