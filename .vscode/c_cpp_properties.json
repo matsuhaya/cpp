@@ -6,8 +6,8 @@
                 "${workspaceFolder}/**",
                 "/usr/local/include/**"
             ],
-            "defines": [],
-            "macFrameworkPath": [],
+            "defines": [ ],
+            "macFrameworkPath": [ ],
             "compilerPath": "/usr/local/bin/g++-9",
             "cStandard": "gnu17",
             "cppStandard": "gnu++17",
