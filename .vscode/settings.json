@@ -5,6 +5,6 @@
     },
     "C_Cpp.clang_format_style": "Google",
     "code-runner.executorMap": {
-        "cpp": "g++-9 -std=gnu++17 $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
+        "cpp": "g++-12 -std=gnu++20 $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
     }
 }
