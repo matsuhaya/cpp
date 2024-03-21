@@ -1,3 +1,4 @@
+// https://atcoder.jp/contests/arc031/tasks/arc031_2
 #include <bits/stdc++.h>
 using namespace std;
 #define rep(i, n) for (int i = 0; i < (int)(n); i++)
