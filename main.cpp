@@ -9,6 +9,7 @@ template <typename T>
 inline void print(const vector<T>& v, string s = " ") {
   rep(i, v.size()) cout << v[i] << (i != (ll)v.size() - 1 ? s : "\n");
 }
+ll div_ceil(ll a, ll b) { return (a >= 0 ? (a + b - 1) : a) / b; }
 
 int main() {
   // code
