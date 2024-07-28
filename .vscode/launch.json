@@ -5,10 +5,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "args": [
-                "<",
-                "${fileDirname}/test/sample-1.in"
-            ],
+            "args": [ ],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [ ],
@@ -18,7 +15,7 @@
                 }
             ],
             "externalConsole": false,
-            "MIMode": "lldb", // TODO: gdbにする
+            "MIMode": "lldb",
             "preLaunchTask": "C/C++: g++ アクティブなファイルのビルド"
         }
     ],
