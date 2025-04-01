@@ -11,6 +11,25 @@
         "bitset": "cpp",
         "initializer_list": "cpp",
         "string": "cpp",
-        "string_view": "cpp"
-    }
+        "string_view": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "__hash_table": "cpp",
+        "__tree": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "*.tcc": "cpp",
+        "bit": "cpp",
+        "cmath": "cpp"
+    },
+    "cSpell.userWords": [
+        "chmin",
+        "chmax"
+    ]
 }
